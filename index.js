@@ -26,7 +26,7 @@ function total() {
   // write your code here
 }
 
-function removeFromCart(item) {
+
   function removeFromCart(item) {
     for (var i=0; i<cart.length; i++) {
       if (Object.keys(cart[i]) == item) {

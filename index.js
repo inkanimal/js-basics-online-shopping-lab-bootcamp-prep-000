@@ -14,27 +14,29 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  function removeFromCart(item) {
-    for (var i=0; i<cart.length; i++) {
-      if (Object.keys(cart[i]) == item) {
-        cart = [...cart.slice(0,i), ...cart.slice(i+1)];
-        
-      }
-      return cart;
-    }
+
 
 
   // write your code here
 
-  console.log("That item is not in your cart.");
-  return cart;// write your code here
-}
+// write your code here
+
 
 function total() {
   // write your code here
 }
 
 function removeFromCart(item) {
+  function removeFromCart(item) {
+    for (var i=0; i<cart.length; i++) {
+      if (Object.keys(cart[i]) == item) {
+        cart = [...cart.slice(0,i), ...cart.slice(i+1)];
+
+      }
+      return cart;
+    }
+
+
   // write your code here
 }
 
